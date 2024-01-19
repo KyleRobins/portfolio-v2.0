@@ -26,13 +26,13 @@ const Projects = ({openModal,setOpenModal}) => {
             :
             <ToggleButton value="web app" onClick={() => setToggle('web app')}>WEB</ToggleButton>
           }
-          <Divider />
+          {/* <Divider />
           {toggle === 'android app' ?
             <ToggleButton active value="android app" onClick={() => setToggle('android app')}>DEVOPS</ToggleButton>
             :
             <ToggleButton value="android app" onClick={() => setToggle('android app')}>DEVOPS</ToggleButton>
           }
-          <Divider />
+          <Divider /> */}
           {toggle === 'machine learning' ?
             <ToggleButton active value="machine learning" onClick={() => setToggle('machine learning')}>GRAPHICS</ToggleButton>
             :
