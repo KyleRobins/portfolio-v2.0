@@ -308,9 +308,9 @@ export const projects = [
   {
     id: 9,
     title: "Senke",
-    date: "Jun 2023 - Jul 2023",
+    date: "Active",
     description:
-      "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
+      "Discover Senke: Your Ultimate Destination for Daily Essentials! Shop groceries, and pharmacy items, indulge in delicious meals, and send parcels effortlessly, all from the comfort of your home.",
     image:
       "https://res.cloudinary.com/dzw5pskk1/image/upload/v1705588877/senkeafrca_sbgjkb.png",
     tags: [
@@ -331,8 +331,7 @@ export const projects = [
     id: 0,
     title: "Senke Dashboard",
     date: "Apr 2023 - May 2023",
-    description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
+    description: "The dashboard that manages orders, fleet management, invoices, Geo location etc",
     image:
       "https://res.cloudinary.com/dzw5pskk1/image/upload/v1705589332/senke-admin_fl6xow.png",
     tags: [
@@ -356,7 +355,7 @@ export const projects = [
     title: "Elitcorp",
     date: "Oct 2022 - Present",
     description:
-      "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
+      "Developed an IT Agency and Consulting Website that deals with web development, Cloud Technologies, Graphics Design, IT Consultancy",
     image:
       "https://res.cloudinary.com/dzw5pskk1/image/upload/v1705590482/elit_ajmdvv.png",
     tags: [
@@ -373,30 +372,15 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Brain Tumor Detection",
+    title: "Elitcorp Socials",
     date: "Jan 2023 - Mar 2023",
     description:
       "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
     image:
-      "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
+      "https://res.cloudinary.com/dzw5pskk1/image/upload/v1705641325/socialmedia_b90nhh.png",
+    tags: ["Adobe Illustrator", "Adobe Photoshop", "Canva", "Figma"],
     category: "machine learning",
-    github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-    webapp: "https://brain-tumor.netlify.app/",
-    member: [
-      {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
-      },
-    ],
+    view: "https://twitter.com/elit_corp",
   },
   {
     id: 3,
@@ -427,9 +411,9 @@ export const projects = [
   {
     id: 4,
     title: "Personal Blog",
-    date: "Jul 2021",
+    date: "Active",
     description:
-      "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
+      "A personal blog where i write technial articles from time to time to share my knowledge on the technologies i have learnt ",
     image:
       "https://res.cloudinary.com/dzw5pskk1/image/upload/v1705593640/blog_vrzuq3.png",
     tags: ["React Js", "Firebase", "Firestore", "Node JS"],
@@ -440,22 +424,22 @@ export const projects = [
   {
     id: 5,
     title: "Pgemsfresh",
-    date: "Jun 2021",
+    date: "Nov 2023",
     description:
-      " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
+      " A Fresh Farm Produce Website for the company to showcase their products.",
     image:
       "https://res.cloudinary.com/dzw5pskk1/image/upload/v1705593968/pgemsfresh_lxmi1q.png",
-    tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
+    tags: ["Php", "Wordpress", "Gcp Auth", "Node JS"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Todo-Web-App",
-    webapp: "https://rishav-react-todo.netlify.app/",
+    github: "#",
+    webapp: "https://pgemsfresh.com",
   },
   {
     id: 6,
     title: "Unistus Ltd CRM",
-    date: "Jun 2021",
+    date: "Feb 2022",
     description:
-      "A simple react app that shows the characters of the famous TV series Breaking Bad. It uses the Breaking Bad API to fetch the data. It also has a search bar to search for a particular character.",
+      "A Customer Relations Management System to manage the interactions with the customers from features like accounting, Book keeping, Hr Module ETC ",
     image:
       "https://res.cloudinary.com/dzw5pskk1/image/upload/v1705597419/unistusodoo_pbrxa5.png",
     tags: ["Python", "API", "Docker", "Node JS", "Nginx", "MySql", "Odoo"],
@@ -479,16 +463,15 @@ export const projects = [
   },
   {
     id: 8,
-    title: "Face Recognition",
+    title: "Info Graphics",
     date: "Jan 2021",
     description:
       "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
     image:
-      "https://camo.githubusercontent.com/a8b3e1ebf26d4c95f75bc6671189a3590eb67eb8332d7c7452492990e731efb9/68747470733a2f2f77617265686f7573652d63616d6f2e696e67726573732e636d68312e707366686f737465642e6f72672f356137383335396561323762643261633232336437656662306639303831306437373930383436312f363837343734373037333361326632663633366336663735363432653637363937343638373536323735373336353732363336663665373436353665373432653633366636643266363137333733363537343733326633383339333633363339333232663332333433343333333033333339333832663333333636363330363533333636333032643331333336333632326433313331363533373264333833323335333832643334363433303633333936333635333136353334333133393265363736393636",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
+      "https://res.cloudinary.com/dzw5pskk1/image/upload/v1705645149/infographics_j94vjj.png",
+    tags: ["Canva", "ExcalliDraw", "Draw.io", "Adobe Illustrator"],
     category: "machine learning",
-    github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-    webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
+    view: "https://www.linkedin.com/posts/elitcorp_ugcPost-7125830640062652416-KurK?utm_source=share&utm_medium=member_desktop",
   },
 ];
 
