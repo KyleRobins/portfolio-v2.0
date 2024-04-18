@@ -207,27 +207,6 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://e4impactkenya.org/wp-content/uploads/2021/11/e4impactlogo.jpg",
-    role: "Fullstack Engineer",
-    company: "E4Impact Org.",
-    date: "Present",
-    desc: "Optimizing IT infrastructure, specializing in cloud technologies, automation, and DevOps best practices.Currently contributing to DevOps practices at ElitCorp, focusing on enhancing operational efficiency, automating workflows, and optimizing cloud environments. Committed to ongoing learning and staying abreast of industry trends.",
-    skills: [
-      "Docker",
-      "Terraform",
-      "AWS",
-      "EC2",
-      "Kubernetes",
-      "Nginx",
-      "JavaScript",
-      "TypeScript",
-      "Node Js",
-      " Next Js",
-    ],
-  },
-
-  {
-    id: 0,
     img: "https://elit.co.ke/wp-content/uploads/2023/10/Elitcorp-New-White-favicon.png",
     role: "DevOps & Fullstack Engineer",
     company: "Elitcorp ltd.",
