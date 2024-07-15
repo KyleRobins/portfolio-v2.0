@@ -10,7 +10,7 @@ export const Bio = {
     "I'm an enthusiastic and adaptable person, always excited to tackle new challenges. I love learning and am committed to delivering great results. I bring a positive attitude and a mindset focused on growth. I enjoy working in a team, and my passion is creating technologies that make a real impact.",
   github: "https://github.com/kylerobins",
   resume:
-    "https://drive.google.com/file/d/11gNVoPPJmEBzT-JODRs5WyalnOiH5Us7/view",
+    "https://docs.google.com/document/d/1TzOGdoiVL7XgKh2y2DE527CXty6wKSO6hYlWFLwOlwI/edit?usp=sharing",
   linkedin: "https://www.linkedin.com/in/robinskyle/",
   twitter: "https://twitter.com/_KyleRobins",
   blog: "https://blog.kylerobins.com",
