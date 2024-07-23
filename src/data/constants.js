@@ -331,7 +331,8 @@ export const projects = [
     id: 0,
     title: "Senke Dashboard",
     date: "Apr 2023 - May 2023",
-    description: "The dashboard that manages orders, fleet management, invoices, Geo location etc",
+    description:
+      "The dashboard that manages orders, fleet management, invoices, Geo location etc",
     image:
       "https://res.cloudinary.com/dzw5pskk1/image/upload/v1705589332/senke-admin_fl6xow.png",
     tags: [
@@ -367,8 +368,8 @@ export const projects = [
       "NodeMailer",
     ],
     category: "web app",
-    github: "https://github.com/rishavchanda/Project-Management-App",
-    webapp: "https://vexa-app.netlify.app/",
+    github: "#",
+    webapp: "https://elit.co.ke/",
   },
   {
     id: 2,
