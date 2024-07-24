@@ -169,7 +169,7 @@ export const skills = [
       {
         name: "GitHub",
         image:
-          "https://www.flaticon.com/free-icon/github_2111432?term=github&page=1&position=4&origin=search&related_id=2111432",
+          "https://www.flaticon.com/free-icons/github",
       },
       {
         name: "Yaml",
