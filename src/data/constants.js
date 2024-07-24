@@ -142,17 +142,17 @@ export const skills = [
           "https://imgs.search.brave.com/KDw8x0Nr1eXZbzZGvtaD1dWktm8VlhgvQZezv6lNCvo/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9mcmVl/bG9nb3BuZy5jb20v/aW1hZ2VzL2FsbF9p/bWcvMTY2NDI4NDgz/NmNhcC1jdXQtbG9n/by1wbmcucG5n",
       },
       {
-        name: "Adobe Illustrator",
+        name: "Adobe AI",
         image:
           "https://res.cloudinary.com/dzw5pskk1/image/upload/v1705568954/adobe-illustrator_brjq6y.svg",
       },
       {
-        name: "Adobe After Effects",
+        name: "Adobe AE",
         image:
           "https://res.cloudinary.com/dzw5pskk1/image/upload/v1705568953/adobe-after-effects_b9ag7y.svg",
       },
       {
-        name: "Adobe Photoshop",
+        name: "Adobe Psd",
         image:
           "https://res.cloudinary.com/dzw5pskk1/image/upload/v1705568962/adobe-photoshop_igoo3o.svg",
       },
