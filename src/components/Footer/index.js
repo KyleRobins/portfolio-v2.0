@@ -62,7 +62,7 @@ const NavLink = styled.a`
 
 const SocialMediaIcons = styled.div`
   display: flex;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 `;
 
 const SocialMediaIcon = styled.a`
@@ -77,18 +77,35 @@ const SocialMediaIcon = styled.a`
 `;
 
 const Copyright = styled.p`
-  margin-top: 1.5rem;
+  margin-top: 0.5rem;
   font-size: 0.9rem;
   color: ${({ theme }) => theme.soft2};
   text-align: center;
+`;
+
+const Greeting = styled.div`
+  font-size: 1rem;
+  color: ${({ theme }) => theme.text_primary};
+  text-align: center;
+  margin-top: 0.5rem;
 `;
 
 function Footer() {
   const [greeting, setGreeting] = useState("");
   const [emoji, setEmoji] = useState("");
 
+  const getCurrentDate = () => {
+    const now = new Date();
+    const options = {
+      weekday: "long",
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    };
+    return now.toLocaleDateString("en-US", options);
+  };
+
   useEffect(() => {
-    // Function to get the current time of day
     const getTimeOfDay = () => {
       const now = new Date();
       const hours = now.getHours();
@@ -105,32 +122,18 @@ function Footer() {
       }
     };
 
-    // Function to get the current date and day
-    const getCurrentDate = () => {
-      const now = new Date();
-      const options = {
-        weekday: "long",
-        year: "numeric",
-        month: "long",
-        day: "numeric",
-      };
-      return now.toLocaleDateString("en-US", options);
-    };
-
     getTimeOfDay();
-    const currentDate = getCurrentDate();
-
-    // Set the HTML content of the Copyright element
-    const copyrightElement = document.getElementById("copyright");
-    if (copyrightElement) {
-      copyrightElement.innerHTML = `${greeting} ${emoji}, ${currentDate}<br>&copy; 2024 Kyle Robins. All rights reserved.`;
-    }
-  }, [greeting, emoji]);
+  }, []);
 
   return (
     <FooterContainer>
       <FooterWrapper>
         <Logo>Kyle Robins</Logo>
+        {greeting && emoji && (
+          <Greeting>
+            {greeting} {emoji}, {getCurrentDate()}
+          </Greeting>
+        )}
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
@@ -152,7 +155,9 @@ function Footer() {
             <YouTubeIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright id="copyright" />
+        <Copyright>
+          © {new Date().getFullYear()} Kyle Robins. All rights reserved.
+        </Copyright>
       </FooterWrapper>
     </FooterContainer>
   );

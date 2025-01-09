@@ -3,8 +3,9 @@ export const Bio = {
   roles: [
     "Devops Engineer",
     "Full Stack Developer",
-    "Graphics Designer",
-    "Technical Writter",
+    "IT Consultant",
+    "Technical Writer",
+    "SEO Specialist",
   ],
   description:
     "I'm an enthusiastic and adaptable person, always excited to tackle new challenges. I love learning and am committed to delivering great results. I bring a positive attitude and a mindset focused on growth. I enjoy working in a team, and my passion is creating technologies that make a real impact.",
@@ -370,7 +371,19 @@ export const projects = [
     category: "web app",
     github: "#",
     webapp: "https://elit.co.ke/",
+    techStack: [
+      {
+        name: "React",
+        icon: "/path/to/react-icon.png",
+      },
+      {
+        name: "Node.js",
+        icon: "/path/to/nodejs-icon.png",
+      },
+      // Add more tech stack items as needed
+    ],
   },
+
   {
     id: 2,
     title: "Elitcorp Socials",
