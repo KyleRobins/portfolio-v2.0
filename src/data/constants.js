@@ -208,7 +208,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/v2/D4D0BAQH6yEGXFS3J4A/company-logo_100_100/company-logo_100_100/0/1680598175095/e4impact_accelerator_logo?e=1749686400&v=beta&t=0h_o-097Jf8b8wAuLAxqWAVvlrdMxKKvMYBtsCwNisk",
+    img: "https://res.cloudinary.com/dzw5pskk1/image/upload/v1715753954/applicationLogo_h62wsh.jpg",
     role: "DevOps Engineer | Software Engineer",
     company: "E4Impact Entrepreneurship Center, Kenya",
     date: "Feb 2024 - Present",
