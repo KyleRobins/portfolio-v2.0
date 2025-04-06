@@ -1,14 +1,27 @@
-import React from 'react'
-import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileNavLogo, MobileLink } from './NavbarStyledComponent'
-import { DiCssdeck } from 'react-icons/di';
-import { FaBars } from 'react-icons/fa';
-import { Bio } from '../../data/constants';
-import { Close, CloseRounded } from '@mui/icons-material';
-import { useTheme } from 'styled-components';
+import React from "react";
+import {
+  Nav,
+  NavLink,
+  NavbarContainer,
+  Span,
+  NavLogo,
+  NavItems,
+  GitHubButton,
+  ButtonContainer,
+  MobileIcon,
+  MobileMenu,
+  MobileNavLogo,
+  MobileLink,
+} from "./NavbarStyledComponent";
+import { DiCssdeck } from "react-icons/di";
+import { FaBars } from "react-icons/fa";
+import { Bio } from "../../data/constants";
+import { Close, CloseRounded } from "@mui/icons-material";
+import { useTheme } from "styled-components";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
-  const theme = useTheme()
+  const theme = useTheme();
   return (
     <Nav>
       <NavbarContainer>
@@ -41,10 +54,11 @@ const Navbar = () => {
           <NavLink href="#experience">Experience</NavLink>
           <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#education">Education</NavLink>
+          <NavLink href="#certificates">Certificates</NavLink>
         </NavItems>
         <ButtonContainer>
-          <GitHubButton href={Bio.github} target="_blank">
-            Github Profile
+          <GitHubButton href={Bio.linkedin} target="_blank">
+            LinkedIn Profile
           </GitHubButton>
         </ButtonContainer>
         {isOpen && (
@@ -97,6 +111,14 @@ const Navbar = () => {
             >
               Education
             </MobileLink>
+            <MobileLink
+              href="#certificates"
+              onClick={() => {
+                setIsOpen(!isOpen);
+              }}
+            >
+              Certificates
+            </MobileLink>
             <GitHubButton
               style={{
                 padding: "10px 16px",
@@ -104,16 +126,16 @@ const Navbar = () => {
                 color: "white",
                 width: "max-content",
               }}
-              href={Bio.github}
+              href={Bio.linkedin}
               target="_blank"
             >
-              Github Profile
+              LinkedIn Profile
             </GitHubButton>
           </MobileMenu>
         )}
       </NavbarContainer>
     </Nav>
   );
-}
+};
 
-export default Navbar
+export default Navbar;

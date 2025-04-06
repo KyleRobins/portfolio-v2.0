@@ -4,6 +4,9 @@ import RssFeedIcon from "@mui/icons-material/RssFeed";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import YouTubeIcon from "@mui/icons-material/YouTube";
+import HomeIcon from "@mui/icons-material/Home";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import InstagramIcon from "@mui/icons-material/Instagram";
 import { Bio } from "../../data/constants";
 
 const FooterContainer = styled.div`
@@ -60,19 +63,51 @@ const NavLink = styled.a`
   }
 `;
 
+const SocialMediaContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 2rem;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1000;
+  pointer-events: none;
+`;
+
 const SocialMediaIcons = styled.div`
   display: flex;
-  margin-top: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  background-color: ${({ theme }) => theme.card};
+  border-radius: 50px;
+  padding: 1rem 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  position: relative;
+  transition: all 0.3s ease;
+  pointer-events: auto;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+  }
 `;
 
 const SocialMediaIcon = styled.a`
-  display: inline-block;
-  margin: 0 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0.8rem;
   font-size: 1.5rem;
   color: ${({ theme }) => theme.text_primary};
-  transition: color 0.2s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border-radius: 50%;
+  padding: 8px;
+
   &:hover {
     color: ${({ theme }) => theme.primary};
+    transform: translateY(-5px);
+    background-color: ${({ theme }) => theme.bgLight};
   }
 `;
 
@@ -140,25 +175,30 @@ function Footer() {
           <NavLink href="#experience">Experience</NavLink>
           <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#education">Education</NavLink>
+          <NavLink href="#certificates">Certificates</NavLink>
         </Nav>
-        <SocialMediaIcons>
-          <SocialMediaIcon href={Bio.blog} target="display">
-            <RssFeedIcon />
-          </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.twitter} target="display">
-            <TwitterIcon />
-          </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.linkedin} target="display">
-            <LinkedInIcon />
-          </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.youtube} target="display">
-            <YouTubeIcon />
-          </SocialMediaIcon>
-        </SocialMediaIcons>
-        <Copyright>
+
+        <Copyright style={{ marginBottom: "4rem" }}>
           © {new Date().getFullYear()} Kyle Robins. All rights reserved.
         </Copyright>
       </FooterWrapper>
+
+      <SocialMediaContainer>
+        <SocialMediaIcons>
+          <SocialMediaIcon href="#" target="_blank">
+            <HomeIcon />
+          </SocialMediaIcon>
+          <SocialMediaIcon href={Bio.linkedin} target="_blank">
+            <LinkedInIcon />
+          </SocialMediaIcon>
+          <SocialMediaIcon href={Bio.github} target="_blank">
+            <GitHubIcon />
+          </SocialMediaIcon>
+          <SocialMediaIcon href="https://www.instagram.com" target="_blank">
+            <InstagramIcon />
+          </SocialMediaIcon>
+        </SocialMediaIcons>
+      </SocialMediaContainer>
     </FooterContainer>
   );
 }

@@ -13,7 +13,7 @@ export const Bio = {
   resume:
     "https://docs.google.com/document/d/1TzOGdoiVL7XgKh2y2DE527CXty6wKSO6hYlWFLwOlwI/edit?usp=sharing",
   linkedin: "https://www.linkedin.com/in/robinskyle/",
-  twitter: "https://twitter.com/_KyleRobins",
+  twitter: "https://x.com/_KyleRobins",
   blog: "https://blog.kylerobins.com",
   youtube: "https://www.youtube.com/@kylerobins?sub_confirmation=1",
 };
@@ -208,7 +208,27 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://elit.co.ke/wp-content/uploads/2023/10/Elitcorp-New-White-favicon.png",
+    img: "https://media.licdn.com/dms/image/v2/D4D0BAQH6yEGXFS3J4A/company-logo_100_100/company-logo_100_100/0/1680598175095/e4impact_accelerator_logo?e=1749686400&v=beta&t=0h_o-097Jf8b8wAuLAxqWAVvlrdMxKKvMYBtsCwNisk",
+    role: "DevOps Engineer | Software Engineer",
+    company: "E4Impact Entrepreneurship Center, Kenya",
+    date: "Feb 2024 - Present",
+    desc: "Working as a full-time DevOps and Software Engineer at E4Impact Entrepreneurship Center in Kenya. Responsible for designing, implementing, and managing cloud infrastructure, CI/CD pipelines, and developing scalable software solutions for entrepreneurship initiatives. Maintaining company websites, developing websites for incubated and accelerated companies, as well as developing and maintaining company internal systems.",
+    skills: [
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "CI/CD",
+      "Terraform",
+      "Jenkins",
+      "Git",
+      "JavaScript",
+      "React",
+      "Node.js",
+    ],
+  },
+  {
+    id: 1,
+    img: "https://www.elit.co.ke/_next/image?url=%2Fassets%2Fimages%2Fcommon%2FElitcorp-Dark.png&w=256&q=75",
     role: "DevOps & Fullstack Engineer",
     company: "Elitcorp ltd.",
     date: "Present",
@@ -227,7 +247,7 @@ export const experiences = [
     ],
   },
   {
-    id: 0,
+    id: 2,
     img: "https://res.cloudinary.com/dzw5pskk1/image/upload/v1705600457/unistus-new_qew4lo.png",
     company: "Unistus Services Ltd",
     date: "Aug 2022 - Dec 2023",
@@ -246,7 +266,7 @@ export const experiences = [
     ],
   },
   {
-    id: 1,
+    id: 3,
     img: "https://res.cloudinary.com/dzw5pskk1/image/upload/v1705581205/nitrogen_w6ryxr.png",
     role: "Front-End Developer",
     company: "Nitrogen Technologies",
@@ -266,7 +286,7 @@ export const experiences = [
     ],
   },
   {
-    id: 2,
+    id: 4,
     img: "https://res.cloudinary.com/dzw5pskk1/image/upload/v1705581617/Muru-Tech-Blue-Favicon-e1671027552148_d8lyzf.webp",
     role: "Front-End Developer Intern",
     company: "Murutech Inc.",
@@ -299,8 +319,10 @@ export const education = [
     img: "https://res.cloudinary.com/dzw5pskk1/image/upload/v1705585110/Develhope_jahknb.png",
     school: "Develhope",
     date: "Jun 2023 - Nov 2023",
-    desc: "I completed the Java Backend Developer course at Develhope, specializing in Java, JavaScript, Git, Postman, Spring Boot, and SQL.",
-    grade: "Java Backend Developer",
+    desc: "I completed the Java Backend Engineer program at Develhope, specializing in Java Backend Engineering and Computer Programming. Gained expertise in building robust server-side applications and RESTful APIs using Spring frameworks.",
+    skills:
+      "Spring Boot · Spring MVC · Java · Jira · Oracle SQL Developer · Spring Security · JavaScript · Project Management",
+    degree: "Java Backend Engineer, Computer Programming",
     doc: "https://www.credential.net/e09d4d45-9b4e-46f0-9d84-715069c57760",
   },
 ];
@@ -370,7 +392,7 @@ export const projects = [
     ],
     category: "web app",
     github: "#",
-    webapp: "https://elit.co.ke/",
+    webapp: "https://www.elit.co.ke/",
     techStack: [
       {
         name: "React",
@@ -401,7 +423,7 @@ export const projects = [
   //   title: "Buckoid",
   //   date: "Dec 2021 - Apr 2022",
   //   description:
-  //     "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
+  //     "App Is Currently In Playstore 100+ Downloads. This Project proposes an "Expense Tracking App". Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
   //   image:
   //     "https://camo.githubusercontent.com/fbf405040ae86b5d4a40f24e4ac034982cb8c0e2d850560ba64527997b258be8/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
   //   tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
@@ -495,4 +517,70 @@ export const TimeLineData = [
   { year: 2019, text: "Founded JavaScript Mastery" },
   { year: 2020, text: "Shared my projects with the world" },
   { year: 2021, text: "Started my own platform" },
+];
+
+export const certificates = [
+  {
+    id: 1,
+    title: "Networking Fundamentals on GCP",
+    issuer: "Google Cloud",
+    date: "Issued Oct 2, 2024 EDT",
+    image:
+      "https://cdn.qwiklabs.com/%2FX2jwzmWtD0IjbWRpVyW9CH0tjmbSpgY8oDBwdYxN5M%3D",
+    url: "https://www.cloudskillsboost.google/public_profiles/1e046c18-26d2-49e1-b53e-d5b0eb031eed/badges/11821409",
+  },
+  {
+    id: 2,
+    title: "Use APIs to Work with Cloud Storage",
+    issuer: "Google Cloud",
+    date: "Issued Sep 20, 2024 EDT",
+    image:
+      "https://cdn.qwiklabs.com/Ep3VKgjzXiYW%2BvS7bWyrPt7IUqjeBat3dkphmkFwsRU%3D",
+    url: "https://www.cloudskillsboost.google/public_profiles/1e046c18-26d2-49e1-b53e-d5b0eb031eed/badges/11559678",
+  },
+  {
+    id: 3,
+    title: "Getting Started with Cloud Storage",
+    issuer: "Google Cloud",
+    date: "Issued Sep 20, 2024 EDT",
+    image:
+      "https://cdn.qwiklabs.com/C29WcLiPHUd2uj1zMaF2MepWKhC%2Bvs7WTUMUTA4nMFU%3D",
+    url: "https://www.cloudskillsboost.google/public_profiles/your-profile",
+  },
+  {
+    id: 4,
+    title: "Google Cloud Essentials Completion Badge",
+    issuer: "Google Cloud",
+    date: "Issued Sep 20, 2024 EDT",
+    image:
+      "https://res.cloudinary.com/dzw5pskk1/image/upload/ar_16:9,c_fill,e_sharpen,g_auto,h_667,w_1000/v1743939388/Gcp-Essentials_kewkps.png",
+    url: "https://www.cloudskillsboost.google/public_profiles/1e046c18-26d2-49e1-b53e-d5b0eb031eed/badges/11555608",
+  },
+  {
+    id: 5,
+    title: "Cybersecurity Fundamentals",
+    issuer: "IBM SkillsBuild",
+    date: "Issued Jul 10, 2024 EDT",
+    image:
+      "https://res.cloudinary.com/dzw5pskk1/image/upload/c_fill,w_280,h_280/v1743940230/ibm_fzg0qq.png",
+    url: "https://www.credly.com/badges/62fa7cfe-712d-4b97-a781-3d232dfc0926/public_url",
+  },
+  {
+    id: 6,
+    title: "AWS Cloud Computing",
+    issuer: "Amazon Web Services",
+    date: "Issued Sep 20, 2024 EDT",
+    image:
+      "https://images.credly.com/size/680x680/images/8d67bbf4-128b-4141-b5f1-1bc61bbfbaa6/image.png",
+    url: "https://www.cloudskillsboost.google/public_profiles/your-profile",
+  },
+  {
+    id: 6,
+    title: "AWS Cloud Computing",
+    issuer: "Amazon Web Services",
+    date: "Issued Sep 20, 2024 EDT",
+    image:
+      "https://images.credly.com/size/680x680/images/44e2c252-5d19-4574-9646-005f7225bf53/image.png",
+    url: "https://www.credly.com/badges/907ed7ad-b17a-4afa-9fff-f306d4f1e7ec",
+  },
 ];

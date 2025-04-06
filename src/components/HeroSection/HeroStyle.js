@@ -77,38 +77,42 @@ export const HeroLeftContainer = styled.div`
 export const HeroRightContainer = styled.div`
   width: 100%;
   display: flex;
-  order: 2;
-  justify-content: end;
-  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  order: 1;
   @media (max-width: 960px) {
-    order: 1;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 80px;
+    order: 2;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+    margin-bottom: 0px;
   }
 
   @media (max-width: 640px) {
-    margin-bottom: 30px;
+    margin-bottom: 0;
+    padding: 0 10px;
   }
 `;
 
 export const Img = styled.img`
   position: relative;
   width: 100%;
-  height: 100%;
+  height: auto;
   max-width: 400px;
-  max-height: 400px;
-  border-radius: 50%;
+  max-height: 600px;
+  object-fit: cover;
+  border-radius: 20px;
   border: 2px solid ${({ theme }) => theme.primary};
 
   @media (max-width: 768px) {
     max-width: 400px;
-    max-height: 400px;
+    max-height: 600px;
   }
 
   @media (max-width: 640px) {
     max-width: 280px;
-    max-height: 280px;
+    max-height: 420px;
   }
 `;
 
@@ -181,16 +185,16 @@ export const ResumeButton = styled.a`
     font-size: 20px;
     font-weight: 600;
     transition: all 0.2s ease-in-out !important;
-    background: hsla(271, 100%, 50%, 1);
-    background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-    background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-    background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-    box-shadow:  20px 20px 60px #1F2634,
-    -20px -20px 60px #1F2634;
+    background: hsla(147, 25%, 40%, 1);
+    background: linear-gradient(225deg, hsla(147, 25%, 40%, 1) 0%, hsla(147, 25%, 50%, 1) 100%);
+    background: -moz-linear-gradient(225deg, hsla(147, 25%, 40%, 1) 0%, hsla(147, 25%, 50%, 1) 100%);
+    background: -webkit-linear-gradient(225deg, hsla(147, 25%, 40%, 1) 0%, hsla(147, 25%, 50%, 1) 100%);
+    box-shadow:  20px 20px 60px #13201b,
+    -20px -20px 60px #13201b;
     &:hover {
         transform: scale(1.05);
     transition: all 0.4s ease-in-out;
-    box-shadow:  20px 20px 60px #1F2634,
+    box-shadow:  20px 20px 60px #13201b,
     filter: brightness(1);
     }    
     
