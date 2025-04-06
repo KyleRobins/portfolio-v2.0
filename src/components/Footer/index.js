@@ -194,8 +194,8 @@ function Footer() {
           <SocialMediaIcon href={Bio.github} target="_blank">
             <GitHubIcon />
           </SocialMediaIcon>
-          <SocialMediaIcon href="https://www.instagram.com" target="_blank">
-            <InstagramIcon />
+          <SocialMediaIcon href="https://blog.kylerobins.com" target="_blank">
+            <RssFeedIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
       </SocialMediaContainer>
