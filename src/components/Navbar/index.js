@@ -47,14 +47,15 @@ const Navbar = () => {
         </MobileIcon>
         <NavItems>
           <NavLink href="#about">About</NavLink>
+          <NavLink href="#experience">Experience</NavLink>
+          <NavLink href="#education">Education</NavLink>
+          <NavLink href="#skills">Skills</NavLink>
+          <NavLink href="#certificates">Certificates</NavLink>
+          <NavLink href="#projects">Projects</NavLink>
+
           <NavLink href={Bio.blog} target="_blank">
             Blog
           </NavLink>
-          <NavLink href="#skills">Skills</NavLink>
-          <NavLink href="#experience">Experience</NavLink>
-          <NavLink href="#projects">Projects</NavLink>
-          <NavLink href="#education">Education</NavLink>
-          <NavLink href="#certificates">Certificates</NavLink>
         </NavItems>
         <ButtonContainer>
           <GitHubButton href={Bio.linkedin} target="_blank">
@@ -72,36 +73,12 @@ const Navbar = () => {
               About
             </MobileLink>
             <MobileLink
-              href="https://blog.kylerobins.com" // Update the href to the desired blog URL
-              onClick={() => {
-                setIsOpen(!isOpen);
-              }}
-            >
-              Blog
-            </MobileLink>
-            <MobileLink
-              href="#skills"
-              onClick={() => {
-                setIsOpen(!isOpen);
-              }}
-            >
-              Skills
-            </MobileLink>
-            <MobileLink
               href="#experience"
               onClick={() => {
                 setIsOpen(!isOpen);
               }}
             >
               Experience
-            </MobileLink>
-            <MobileLink
-              href="#projects"
-              onClick={() => {
-                setIsOpen(!isOpen);
-              }}
-            >
-              Projects
             </MobileLink>
             <MobileLink
               href="#education"
@@ -112,12 +89,36 @@ const Navbar = () => {
               Education
             </MobileLink>
             <MobileLink
+              href="#skills"
+              onClick={() => {
+                setIsOpen(!isOpen);
+              }}
+            >
+              Skills
+            </MobileLink>
+            <MobileLink
+              href="#projects"
+              onClick={() => {
+                setIsOpen(!isOpen);
+              }}
+            >
+              Projects
+            </MobileLink>
+            <MobileLink
               href="#certificates"
               onClick={() => {
                 setIsOpen(!isOpen);
               }}
             >
               Certificates
+            </MobileLink>
+            <MobileLink
+              href="https://blog.kylerobins.com"
+              onClick={() => {
+                setIsOpen(!isOpen);
+              }}
+            >
+              Blog
             </MobileLink>
             <GitHubButton
               style={{
