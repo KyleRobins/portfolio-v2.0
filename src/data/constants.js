@@ -567,7 +567,7 @@ export const certificates = [
   },
   {
     id: 6,
-    title: "AWS Cloud Computing",
+    title: "AWS Cloud Computing 101",
     issuer: "Amazon Web Services",
     date: "Issued April 4, 2025 EDT",
     image:
