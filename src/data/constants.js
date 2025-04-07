@@ -569,18 +569,27 @@ export const certificates = [
     id: 6,
     title: "AWS Cloud Computing",
     issuer: "Amazon Web Services",
-    date: "Issued Sep 20, 2024 EDT",
+    date: "Issued April 4, 2025 EDT",
     image:
       "https://images.credly.com/size/680x680/images/8d67bbf4-128b-4141-b5f1-1bc61bbfbaa6/image.png",
     url: "https://www.cloudskillsboost.google/public_profiles/your-profile",
   },
   {
     id: 6,
-    title: "AWS Cloud Computing",
+    title: "AWS Restart Cloud Computing",
     issuer: "Amazon Web Services",
-    date: "Issued Sep 20, 2024 EDT",
+    date: "Issued April 1, 2024 EDT",
     image:
       "https://images.credly.com/size/680x680/images/44e2c252-5d19-4574-9646-005f7225bf53/image.png",
     url: "https://www.credly.com/badges/907ed7ad-b17a-4afa-9fff-f306d4f1e7ec",
+  },
+  {
+    id: 7,
+    title: "AWS Educate Getting Started with Storage",
+    issuer: "Amazon Web Services",
+    date: "Issued April 6, 2025 EDT",
+    image:
+      "https://images.credly.com/images/5bf37709-4b69-4cdc-9edc-af7b3370d427/image.png",
+    url: "https://www.credly.com/badges/c1bba7ba-25d7-427b-9c60-49b4d41ac1fa/public_url",
   },
 ];
