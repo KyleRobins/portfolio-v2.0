@@ -38,6 +38,26 @@ export const skills = [
           "https://res.cloudinary.com/dzw5pskk1/image/upload/v1705570134/kubernetes_spgavu.svg",
       },
       {
+        name: "WildFly",
+        image:
+          "https://tools.jboss.org/features/images/wildfly_logo_stacked_200px.png",
+      },
+      {
+        name: "Argo CD",
+        image:
+          "https://res.cloudinary.com/dzw5pskk1/image/upload/v1705569040/argo-icon_bpv0xf.svg",
+      },
+      {
+        name: "OpenShift",
+        image:
+          "https://res.cloudinary.com/dzw5pskk1/image/upload/v1705570616/openshift_ckkobe.svg",
+      },
+      {
+        name: "Red Hat Linux",
+        image:
+          "https://res.cloudinary.com/dzw5pskk1/image/upload/v1705570753/redhat-icon_l8v0zw.svg",
+      },
+      {
         name: "AWS",
         image:
           "https://res.cloudinary.com/dzw5pskk1/image/upload/v1705569058/aws_mncngm.svg",
@@ -171,6 +191,11 @@ export const skills = [
         name: "GitHub",
         image:
           "https://res.cloudinary.com/dzw5pskk1/image/upload/v1721799946/github_risfko.png",
+      },
+      {
+        name: "GitLab",
+        image:
+          "https://res.cloudinary.com/dzw5pskk1/image/upload/v1705569877/gitlab_hfvxb0.svg",
       },
       {
         name: "Yaml",
